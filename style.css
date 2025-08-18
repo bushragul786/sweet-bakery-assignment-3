@@ -6,3 +6,8 @@
 .navbar-nav{
     gap: 20px;
 }
+.image{
+    width:20px ;
+    border-bottom-right-radius: 50%;
+    
+}
