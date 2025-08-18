@@ -1,0 +1,8 @@
+.btn{
+    background-color: aquamarine;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.navbar-nav{
+    gap: 20px;
+}
