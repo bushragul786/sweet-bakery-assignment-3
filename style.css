@@ -6,8 +6,44 @@
 .navbar-nav{
     gap: 20px;
 }
-.image{
-    width:20px ;
-    border-bottom-right-radius: 50%;
+.cakes{
+    border-radius: 25px;
+    width: 250px;
+}
+.container-back{
+ background: linear-gradient(to right, aquamarine, white,pink,white,aquamarine );
+ height:500px;
+ 
+}
+h2{
+    text-shadow: 1px 4px 4px aqua;
+}
+p{
+    text-shadow: 1px 4px 4px aqua;
+}
+
+h3{
+    text-align: center;
+}
+.lead{
+    color: black;
+    text-shadow: none;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+.gallery img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+.ingredients{
+     border-radius: 50%;
+    width: 70px;
+    align-items: center;
     
 }
