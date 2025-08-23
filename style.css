@@ -2,6 +2,8 @@
     background-color: aquamarine;
     color: aliceblue;
     border-radius: 20px;
+    
+    
 }
 .navbar-nav{
     gap: 20px;
@@ -12,15 +14,13 @@
 }
 .container-back{
  background: linear-gradient(to right, aquamarine, white,pink,white,aquamarine );
- height:500px;
+ height:auto;
  
 }
 h2{
     text-shadow: 1px 4px 4px aqua;
 }
-p{
-    text-shadow: 1px 4px 4px aqua;
-}
+
 
 h3{
     text-align: center;
@@ -46,4 +46,71 @@ h3{
     width: 70px;
     align-items: center;
     
+}
+.space{
+      margin-right:200px  ;
+    margin-left:200px ;
+}
+.space-one{
+    margin-right: 200px;
+}
+.clients  {
+    color: rgb(15, 15, 15);
+    text-shadow: none;
+
+
+
+}
+.column{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 0px;
+}
+.table-container{
+    
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap:30px ;
+}
+.card-body{
+   border-radius:20px ;
+   background-color:rgb(238, 230, 230);
+}
+h5{
+    margin-bottom: 20px;
+}
+.client-pic{
+      border-radius: 50%;
+    width: 70px;
+    align-items: center;
+    margin-right:250px ;
+    
+
+}
+.cover-container{
+    background-image: url(images/cover.png);
+    opacity: 0.8;
+      position: relative;
+      
+  
+}
+
+
+
+.cover-container::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top:0; left:0; right:0; bottom:0 */
+  background: url("images/cover.png") center/cover no-repeat;
+  opacity: 0.8;   /* ye sirf background pe lagega */
+  z-index: -1;    /* text hamesha upar rahega */
+}
+.subscribe{
+   border-color: aqua;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.order{
+    align-items: end;
 }
